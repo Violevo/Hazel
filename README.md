@@ -1,4 +1,4 @@
-# My Python Library
+# LoftyFamily
 
 This is a Python library that provides up-to-date insights and information on Hazel Lofty
 
