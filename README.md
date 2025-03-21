@@ -6,8 +6,8 @@ This is a Python library that provides up-to-date insights and information on Ha
 
 To install the library, you can use pip:
 
-```
-pip install loftyfamily==0.1
+```     
+pip install loftyfamily
 ```
 
 ## Usage
@@ -15,10 +15,18 @@ pip install loftyfamily==0.1
 Here is a simple example of how to use the library:
 
 ```python
-import loftyfamily
+from loftyfamily import Hazel
 
-# Returns age in years (float)
-print(loftyfamily.Hazel.getage()) # 46.07529089664613
+# Create an instance of Hazel
+hazel = Hazel()
+
+# Get age
+age = hazel.getage()
+print(f"Hazel's age: {age}")
+
+# Get employment status
+employment_status = hazel.getemploymentstatus()
+print(f"Hazel's employment status: {employment_status}")
 ```
 
 ## Contributing
