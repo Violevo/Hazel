@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="lofty",
+    name="loftyfamily",
     version="0.1",
     packages=find_packages(),
-    install_requires=[],  # List dependencies here
+    install_requires=[],
     author="Oliver Fisher",
     description="A python library focused on providing up to date insights and information on Hazel Lofty",
     long_description=open("README.md").read(),
