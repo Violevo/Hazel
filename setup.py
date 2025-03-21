@@ -9,7 +9,7 @@ setup(
     description="A python library focused on providing up to date insights and information on Hazel Lofty",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Violevo/Hazel",
+    url="https://github.com/Violevo/loftyfamily",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
