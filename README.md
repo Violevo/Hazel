@@ -7,7 +7,7 @@ This is a Python library that provides up-to-date insights and information on Ha
 To install the library, you can use pip:
 
 ```
-pip install my-python-library
+pip install Hazel
 ```
 
 ## Usage
@@ -15,11 +15,10 @@ pip install my-python-library
 Here is a simple example of how to use the library:
 
 ```python
-from my_python_library import [module_name]
+import Hazel
 
-# Example usage of the library
-result = [module_name].[function_name](parameters)
-print(result)
+# Returns age in years (float)
+print(Hazel.getage()) # 46.07529089664613
 ```
 
 ## Contributing
